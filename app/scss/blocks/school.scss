@@ -1,0 +1,60 @@
+.school {
+    margin-bottom: 50px;
+
+    &__inner {
+        display: flex;
+    }
+
+    &__content {
+        max-width: 700px;
+        padding-top: 53px;
+    }
+
+    &__title {
+        @extend %golos-600;
+        font-size: 64px;
+        line-height: 72px;
+        margin-bottom: 20px;
+        color: #392B4B;
+        span {
+            color: #7D59CA;
+        }
+
+    }
+
+    &__description {
+        @extend %golos-400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #392B4B;
+        margin-bottom: 48px;
+    }
+
+    &__btn-wrapper {
+        display: flex;
+    }
+
+    &__btn-register {
+        @extend %golos-600;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 24px;
+        border-radius: 8px;
+        background-color: #966CEE;
+        color: #FFFFFF;
+        margin-right: 24px;
+    }
+    &__btn-question{
+        @extend %golos-600;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 24px;
+        border-radius: 8px;
+        color: #966CEE;
+        border: 1px solid #E6E0FA;
+        background-color: #F9F4FF;
+    }
+    &__img-wrapper{
+        margin-left: 130px;
+    }
+}
